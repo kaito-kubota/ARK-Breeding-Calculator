@@ -443,6 +443,19 @@ var breedingController=angular.module('breedingControllers', []).controller('bre
 
 	$scope.creatures={
 
+		Acrocanthosaurus: { //
+			birthtype: "Incubation",
+			type: "Carnivore",
+			basefoodrate: 0.002314,
+			babyfoodrate: 25.5,
+			extrababyfoodrate: 20.0,
+			agespeed: 0.000003,
+			agespeedmult: 1,
+			eggspeed: 0.005556,
+			eggspeedmult: 1,
+			weight: 650
+		},
+		
 		Allosaurus: { //
 			birthtype: "Incubation",
 			type: "Carnivore",
@@ -716,6 +729,19 @@ var breedingController=angular.module('breedingControllers', []).controller('bre
 			weight: 120
 		},
 
+		Burrowbuck: { //
+			birthtype: "Gestation",
+			type: "Herbivore",
+			basefoodrate: 0.003156,
+			babyfoodrate: 25.5,
+			extrababyfoodrate: 20.0,
+			agespeed: 0.000003,
+			agespeedmult: 1.3,
+			gestationspeed: 0.000035,
+			gestationspeedmult: 1.3,
+			weight: 350
+		},
+		
 		Carbonemys: { //
 			birthtype: "Incubation",
 			type: "Herbivore",
@@ -833,6 +859,19 @@ var breedingController=angular.module('breedingControllers', []).controller('bre
 			weight: 70.0
 		},
 
+		Cryolophosaurus: { //
+			birthtype: "Incubation",
+			type: "Carnivore",
+			basefoodrate: 0.001543,
+			babyfoodrate: 25.5,
+			extrababyfoodrate: 20.0,
+			agespeed: 0.000003,
+			agespeedmult: 0.5,
+			eggspeed: 0.005556,
+			eggspeedmult: 1,
+			weight: 500
+		},
+		
 		"Crystal Wyvern": { //Food Check - Primal Crystal 350 Food Value - need more Tests!?
 			birthtype: "Incubation",
 			type: "CrystalWyvern",
@@ -1103,6 +1142,19 @@ var breedingController=angular.module('breedingControllers', []).controller('bre
 			weight: 910.0
 		},
 
+		ElderClaw: { //
+			birthtype: "Gestation",
+			type: "Omnivore",
+			basefoodrate: 0.003156,
+			babyfoodrate: 25.5,
+			extrababyfoodrate: 20.0,
+			agespeed: 0.000003,
+			agespeedmult: 1,
+			gestationspeed: 0.000035,
+			gestationspeedmult: 1,
+			weight: 650
+		},
+		
 		Electrophorus: { //
 			birthtype: "Gestation",
 			type: "Carnivore",
@@ -1221,6 +1273,19 @@ var breedingController=angular.module('breedingControllers', []).controller('bre
 			weight: 3000.0
 		},
 
+		Gigadesmodus: { //
+			birthtype: "Incubation",
+			type: "Carnivore",
+			basefoodrate: 0.000185,
+			babyfoodrate: 13.0,
+			extrababyfoodrate: 3.0,
+			agespeed: 0.000003,
+			agespeedmult: 0.7,
+			eggspeed: 0.005556,
+			eggspeedmult: 1,
+			weight: 600
+		},
+		
 		Giganotosaurus: { //
 			birthtype: "Incubation",
 			type: "Carnivore",
@@ -1260,6 +1325,19 @@ var breedingController=angular.module('breedingControllers', []).controller('bre
 			weight: 320
 		},
 		
+		Gloon: { //
+			birthtype: "Incubation",
+			type: "Herbivore",
+			basefoodrate: 0.000868,
+			babyfoodrate: 25.5,
+			extrababyfoodrate: 20.0,
+			agespeed: 0.000003,
+			agespeedmult: 1.9,
+			eggspeed: 0.005556,
+			eggspeedmult: 3.5,
+			weight: 100
+		},
+		
 		Glowtail: { //
 			birthtype: "Incubation",
 			type: "Carnivore",
@@ -1271,6 +1349,19 @@ var breedingController=angular.module('breedingControllers', []).controller('bre
 			eggspeed: 0.005556,
 			eggspeedmult: 2.0,
 			weight: 70.0
+		},
+		
+		Helicoprion: { //
+			birthtype: "Gestation",
+			type: "Carnivore",
+			basefoodrate: 0.001852,
+			babyfoodrate: 25.5,
+			extrababyfoodrate: 20.0,
+			agespeed: 0.000003,
+			agespeedmult: 0.9,
+			gestationspeed: 0.000035,
+			gestationspeedmult: 1,
+			weight: 500
 		},
 		
 		Hesperornis: { //
@@ -1585,6 +1676,19 @@ var breedingController=angular.module('breedingControllers', []).controller('bre
 			weight: 300.0
 		},
 
+		Megaraptor: { //
+			birthtype: "Incubation",
+			type: "Carnivore",
+			basefoodrate: 0.001852,
+			babyfoodrate: 25.5,
+			extrababyfoodrate: 20.0,
+			agespeed: 0.000003,
+			agespeedmult: 2,
+			eggspeed: 0.005556,
+			eggspeedmult: 3,
+			weight: 325
+		},
+		
 		Megatherium: { //
 			birthtype: "Gestation",
 			type: "Omnivore",
@@ -1754,6 +1858,19 @@ var breedingController=angular.module('breedingControllers', []).controller('bre
 			weight: 365.0
 		},
 
+		Palaeoctopus: { //
+			birthtype: "Incubation",
+			type: "Carnivore",
+			basefoodrate: 0.003156,
+			babyfoodrate: 25.5,
+			extrababyfoodrate: 20.0,
+			agespeed: 0.000003,
+			agespeedmult: 2.5,
+			eggspeed: 0.005556,
+			eggspeedmult: 1,
+			weight: 1000
+		},
+		
 		Paraceratherium: { //
 			birthtype: "Gestation",
 			type: "Herbivore",
@@ -1780,6 +1897,19 @@ var breedingController=angular.module('breedingControllers', []).controller('bre
 			weight: 480.0
 		},
 
+		Parrot: { //
+			birthtype: "Incubation",
+			type: "Omnivore",
+			basefoodrate: 0.001302,
+			babyfoodrate: 25.5,
+			extrababyfoodrate: 20.0,
+			agespeed: 0.000003,
+			agespeedmult: 3.7,
+			eggspeed: 0.005556,
+			eggspeedmult: 1.7,
+			weight: 65
+		},
+		
 		Pegomastax: { //
 			birthtype: "Incubation",
 			type: "Herbivore",
@@ -2201,6 +2331,19 @@ var breedingController=angular.module('breedingControllers', []).controller('bre
 			weight: 400.0,
 		},
 
+		Tidepup: { //Axolotl_Small
+			birthtype: "Incubation",
+			type: "Carnivore",
+			basefoodrate: 0.0015,
+			babyfoodrate: 25.5,
+			extrababyfoodrate: 20.0,
+			agespeed: 0.000003,
+			agespeedmult: 2.5,
+			eggspeed: 0.005556,
+			eggspeedmult: 1,
+			weight: 150
+		},
+		
 		Triceratops: { //
 			birthtype: "Incubation",
 			type: "Herbivore",
