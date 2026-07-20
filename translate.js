@@ -14,7 +14,7 @@ const dictionary = {
     "Elapsed Time:": "経過時間:",
     "Time to Juvenile:": "少年期までの時間:",
     "Time to Adult:": "大人になるまでの時間:",
-    "Food to Juvenile (E):": "少年期までに食べる餌の量:"
+    "Food to Juvenile (E):": "少年期までに食べる餌の量:",
     "Food Rate (E):": "食費率:"
 };
 
