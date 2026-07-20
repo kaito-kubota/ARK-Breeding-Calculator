@@ -6,21 +6,22 @@ const dictionary = {
 
 function translatePage() {
     document.querySelectorAll("*").forEach(element => {
-        const text = element.textContent.trim();
-        if (element.innerText && element.innerText.includes("Weight")) {
-            console.log(element.outerHTML);
-        }
 
-        if (dictionary[text]) {
-            element.textContent = dictionary[text];
-        }
+        element.childNodes.forEach(node => {
+            if (node.nodeType === Node.TEXT_NODE) {
+                const text = node.textContent.trim();
+
+                if (dictionary[text]) {
+                    node.textContent = node.textContent.replace(text, dictionary[text]);
+                }
+            }
+        });
+
     });
 }
 
-// 初回実行
 translatePage();
 
-// ページの変更を監視して、自動で再翻訳
 const observer = new MutationObserver(() => {
     translatePage();
 });
