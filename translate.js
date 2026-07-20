@@ -1,5 +1,7 @@
 const dictionary = {
     "Creature Details": "生物情報",
+    "Weight": "重量",
+    "Food Type": "餌の種類",
 };
 
 function translatePage() {
@@ -12,5 +14,15 @@ function translatePage() {
     });
 }
 
-// 0.5秒ごとに翻訳
-setInterval(translatePage, 500);
+// 初回実行
+translatePage();
+
+// ページの変更を監視して、自動で再翻訳
+const observer = new MutationObserver(() => {
+    translatePage();
+});
+
+observer.observe(document.body, {
+    childList: true,
+    subtree: true
+});
