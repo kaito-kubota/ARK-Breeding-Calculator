@@ -24,7 +24,13 @@ const dictionary = {
     "Hand Feed For:": "手動餌やりが必要な時間:",
     "Food to Finish:": "少年期までに必要なインベントリ内の餌の量:",
     "Desired Buffer:": "離席したい時間:",
-    "Time Until Buffer:" "設定時間だけ離席できるようになる成長度:"
+    "Time Until Buffer:": "設定時間だけ離席できるようになる成長度:",
+    "Food Per Day": "一日の食事量",
+    "Loss Factor:": "腐敗で失われる割合:",
+    "Trough Calculator - Food": "飼料計算機 - 餌",
+    "Trough Type:": "餌箱のタイプ",
+    "Stacks": "スタック"
+    
 };
 
 function translatePage() {
