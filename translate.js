@@ -7,6 +7,7 @@ const dictionary = {
 function translatePage() {
     document.querySelectorAll("*").forEach(element => {
         const text = element.textContent.trim();
+        console.log(text);
 
         if (dictionary[text]) {
             element.textContent = dictionary[text];
