@@ -9,7 +9,7 @@ const dictionary = {
     "Gen2 Bulbdog Fetch:": "ジェネ2 バルブドッグフェッチ:",
     "Gen2 Slide and Glide:": "ジェネ2 スライド&グライド:",
     "Maturation": "成熟:",
-    "Incubation": "孵化にかかる時間:",
+    "Incubation:": "孵化にかかる時間:",
     "Maturation:": "現在の成長度:",
     "Elapsed Time:": "経過時間:",
     "Time to Juvenile:": "少年期までの時間:",
