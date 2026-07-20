@@ -22,7 +22,7 @@ const dictionary = {
     "Current Buffer:": "最大まで餌を入れてどれくらい生きるか:",
     "Food to Fill:": "持てる餌の量",
     "Hand Feed For:": "手動餌やりが必要な時間:",
-    "Food to Finish:": ""
+    "Food to Finish:": "少年期までに必要なインベントリ内の餌の量"
 };
 
 function translatePage() {
