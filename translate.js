@@ -1,7 +1,22 @@
 const dictionary = {
     "Creature Details": "生物情報",
+    "Creature:": "生物",
     "Weight:": "重量:",
     "Food Type:": "餌の種類:",
+    "Hatch Multiplier:": "孵化倍率:",
+    "Mature Multiplier:": "成長速度倍率:",
+    "Consume Multiplier:": "餌の消費倍率:",
+    "Gen2 Bulbdog Fetch:": "ジェネ2 バルブドッグフェッチ:",
+    "Gen2 Slide and Glide:": "ジェネ2 スライド&グライド:",
+    "Maturation": "成熟:",
+    "Incubation": "孵化にかかる時間:",
+    "Maturation:": "現在の成長度:",
+    "Elapsed Time:": "経過時間:",
+    "Time to Juvenile:": "少年期までの時間:",
+    "Time to Adult:": "大人になるまでの時間:",
+    "Food to Juvenile (E):": "少年期までに食べる餌の量:"
+    "Food Rate (E):": "食費率:"
+    
 };
 
 function translatePage() {
