@@ -7,8 +7,8 @@ const dictionary = {
 function translatePage() {
     document.querySelectorAll("*").forEach(element => {
         const text = element.textContent.trim();
-        if (text === "Weight") {
-            console.log("Weight found");
+        if (element.innerText && element.innerText.includes("Weight")) {
+            console.log(element.outerHTML);
         }
 
         if (dictionary[text]) {
