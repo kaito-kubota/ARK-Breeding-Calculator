@@ -1,7 +1,7 @@
 const dictionary = {
     "Creature Details": "生物情報",
-    "Weight": "重量",
-    "Food Type": "餌の種類",
+    "Weight:": "重量:",
+    "Food Type:": "餌の種類:",
 };
 
 function translatePage() {
