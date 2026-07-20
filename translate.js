@@ -15,7 +15,7 @@ const dictionary = {
     "Time to Juvenile:": "少年期までの時間:",
     "Time to Adult:": "成体までの時間:",
     "Food to Juvenile (E):": "少年期までに食べる餌の量:",
-    "Food to Adult (E):": "成体までに食べる餌の量",
+    "Food to Adult (E):": "成体までに食べる餌の量:",
     "Food Rate (E):": "食費率:",
     "Food per period (E):": "期間当たりの食料:",
     "Baby Phase": "幼年期",
